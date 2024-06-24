@@ -1,0 +1,20 @@
+2024-06-24 14:58:47.722 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-24 14:58:47.764 +08:00 [INF] Hosting environment: Production
+2024-06-24 14:58:47.765 +08:00 [INF] Content root path: D:\sourcecode\UseHostInAnyProgects\HostWpfApp\bin\Debug\net8.0-windows
+2024-06-24 14:58:53.526 +08:00 [INF] checking for updates...
+2024-06-24 14:58:53.549 +08:00 [ERR] BackgroundService failed
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at HostWpfApp.CheckUpdataService.ExecuteAsync(CancellationToken stoppingToken) in D:\sourcecode\UseHostInAnyProgects\HostWpfApp\CheckUpdataService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2024-06-24 15:00:00.149 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-24 15:00:00.183 +08:00 [INF] Hosting environment: Production
+2024-06-24 15:00:00.184 +08:00 [INF] Content root path: D:\sourcecode\UseHostInAnyProgects\HostWpfApp\bin\Debug\net8.0-windows
+2024-06-24 15:00:03.149 +08:00 [INF] checking for updates...
+2024-06-24 15:00:03.716 +08:00 [ERR] BackgroundService failed
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at HostWpfApp.CheckUpdataService.ExecuteAsync(CancellationToken stoppingToken) in D:\sourcecode\UseHostInAnyProgects\HostWpfApp\CheckUpdataService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2024-06-24 15:00:03.731 +08:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at HostWpfApp.CheckUpdataService.ExecuteAsync(CancellationToken stoppingToken) in D:\sourcecode\UseHostInAnyProgects\HostWpfApp\CheckUpdataService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
